@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+#nav {
+    background: linear-gradient(142deg, rgba(249,249,249,0.6838340183039087) 28%, rgba(9,134,201,0.7261300908114614) 62%, rgba(246,146,81,0.611326465433818) 85%);
+    box-shadow: 4px 4px 4px #cdcdcd;
+}
+.navbar-brand .logo {
+    width: 160px;
+}
+
+#navbarNav ul li a {
+    color: #483D8B	;	
+    font-family: 'Oswald', sans-serif;
+}
+.dropdown-menu img {
+    width: 25px;
+}
+.dropdown-menu a {
+    color: black;
+    font-size: 13px;
+}
+
+#navbarNav ul li a:hover {
+background-color: #ddefef;
+border-radius: 30%;
+}
+
+
+
+
