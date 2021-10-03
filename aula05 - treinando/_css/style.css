@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+#nav {
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+}
+.navbar-brand .logo {
+    width: 160px;
+}
+
+#navbarNav ul li a {
+    color: #483D8B	;	
+    font-family: 'Oswald', sans-serif;
+}
+.dropdown-menu img {
+    width: 25px;
+}
+.dropdown-menu a {
+    color: black;
+    font-size: 13px;
+}
+
+#navbarNav ul li a:hover {
+background-color: #ddefef;
+border-radius: 30%;
+}
+
+
+
+
