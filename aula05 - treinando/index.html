@@ -9,6 +9,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <link rel="stylesheet" href="_css/style.css">
+  <link rel="stylesheet" href="_css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet" type="text/css">
   <title>Teste</title>
 </head>
 
@@ -16,7 +18,7 @@
   <nav class="navbar navbar-expand-lg navbar-light" id="nav">
     <div class="container-fluid justify-content-start">
       <a class="navbar-brand" href="#">
-        <img src="/aula04 - treinando/_img/logo.png" class="navbar-brand logo">
+        <img src="_img/logo.png" class="navbar-brand logo">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,13 +36,13 @@
               Contato
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#"> <img src="/aula04 - treinando/_img/icons/email.png" alt=""> comercial@projetoweb.com.br</a></li>
-              <li><a class="dropdown-item" href="#"><img src="/aula04 - treinando/_img/icons/phone.png" alt=""> (19) 3826-2294</a></li>
+              <li><a class="dropdown-item" href="#"> <img src="_img/icons/email.png" alt=""> comercial@projetoweb.com.br</a></li>
+              <li><a class="dropdown-item" href="#"><img src="_img/icons/phone.png" alt=""> (19) 3826-2294</a></li>
              
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Empresa</a>
+            <a class="nav-link"  href="#mainQuemSomos">Empresa</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Portfólio</a>
@@ -51,10 +53,89 @@
       </div>
     </div>
   </nav>
+
+  <main>
+    <section class="sectionCarrosel">
+      <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="_img/img1.png" id="imgBanner" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000" >
+            <img src="_img/img2.png" id="imgBanner" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="_img/img3.png" id="imgBanner" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id=mainQuemSomos>
+      <div class="container-fluid">
+        <div class="row align-middle">
+          <div class="col-6 text-center align-self-center">
+            <!--CONTEUDO DA PRIMEIRA COLUNA-->
+            <img src="_img/quemsomos.png" class="img-fluid" alt="">
+
+          </div>
+          <div class="col-6 align-self-center">
+            <!--CONTEUDO DA SEGUNDA COLUNA-->
+            <p>Nossa empresa é especializada em escrever conteúdo institucional para diversos negócios e, ao longo de
+              quase 10 anos de marketing digital e produção de conteúdo, percebemos que muitos clientes encontram
+              dificuldades para escrever o quem somos, uma descrição da própria empresa.
+              Parece contraditório que o proprietário ou o gestor de um pequeno negócio ou de uma grande companhia
+              esbarre em uma tarefa que parece tão simples, pois saber como escrever o quem somos não pode ser difícil
+              para o idealizador do negócio. Será?
+              Nestes anos de empresa, percebemos que todo empreendedor precisa de um caminho para desenvolver o quem
+              somos, um conteúdo específico que explique a trajetória da companhia, conte um pouco da história da sua
+              fundação, das pessoas envolvidas, entre outras informações que forem relevantes na mensagem.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="servicos">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="main-title">Nossos Serviços</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4 text-center align-middle destaque-texto">
+          <i class="fas fa-envelope align-middle icones"></i>E-MAIL CORPORATIVO
+          <p class="destaque text-center align-middle">Sua marca precisa chegar onde o público está. As redes sociais impulsionam o crescimento da internet e
+          estar fora delas pode significar perder oportunidades.</p>
+        </div>
+
+          <div class="col-sm-4 text-center align-middle destaque-texto">
+            <i class="fas fa-users align-middle icones"></i>REDES SOCIAIS
+            <p class="destaque text-center align-middle">Sua marca precisa chegar onde o público está. As redes sociais impulsionam o crescimento da internet e
+            estar fora delas pode significar perder oportunidades.</p>
+          </div>
+          
+          <div class="col-sm-4 text-center align-middle destaque-texto">
+            <i class="fas fa-at align-middle icones"></i>E-MAIL MARKETING
+            <p class="destaque text-center align-middle">Para atingir milhares de potenciais clientes ou para reforçar sua marca na mente dos seus clientes
+              através de informativos, o e-mail marketing é uma ótima opção.</p>
+          </div> 
+        </div>
+      </div>
+    </section>
+  </main>
+
   <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-    crossorigin="anonymous"></script>
+  <script src="bootstrap.bundle.js"></script>
 
 
 </body>
