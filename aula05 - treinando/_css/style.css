@@ -5,7 +5,7 @@ body {
 
 }
 #nav {
-    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+    background: linear-gradient(to right, #a1ffce, #faffd1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .navbar-brand .logo {
     width: 160px;
@@ -51,13 +51,13 @@ border-radius: 30%;
 }
 
 .icones {
-    color: #CD5C5C;
+    color: #563f46;
     font-size: 40px;
     margin-right: 20px;
 }
 
 .destaque-texto {
-    color: #CD5C5C;
+    color: #563f46;;
     
 }
 
