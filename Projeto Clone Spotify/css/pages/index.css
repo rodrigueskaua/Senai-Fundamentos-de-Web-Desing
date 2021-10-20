@@ -1,0 +1,61 @@
+/* Header */
+.header .navbar .logo{
+    width: 8rem;
+}
+
+.header .navbar .navbar-toggler svg{
+    color: var(--white);
+    font-size: 1.6rem;
+}
+
+.header .navbar-nav .nav-item{
+    padding: 0 .7rem;
+}
+
+.header .navbar-nav .nav-item .nav-link{
+    color: var(--white);
+
+    transition: all 0.1s ease-out;
+}
+
+.header .navbar-nav .nav-item .nav-link[data-color="gray"]{
+    color: var(--gray);
+}
+
+.header .navbar-nav .nav-item .nav-link:hover,
+.header .navbar-nav .nav-item .nav-link[data-color="gray"]:hover{
+    color: var(--green);
+}
+
+.header .navbar-nav .nav-item .divider{
+    display: block;
+    margin: 0 auto;
+
+    width: .1rem;
+    height: 1rem;
+
+    background: var(--white);
+}
+
+/* Seção topo */
+.secao-topo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+
+    padding-top: 7rem;
+
+    background: 
+        url(https://www.scdn.co/i/free/bubbles-dktp.svg) 
+        center -138px / 100% 1068px no-repeat, 
+        linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+}
+
+.secao-topo h1{
+    font-size: 4rem;
+}
+
+.secao-topo img{
+    width: 18rem;
+}
